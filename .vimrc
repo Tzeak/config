@@ -19,8 +19,8 @@ set shiftwidth=4			"number of spaces per >> << or ==
 
 "Movement
 							"move vertically by visual line
-nnoremap j gj				
-nnoremap k gk
+"nnoremap j gj				
+"nnoremap k gk
 
 "ETC
 set wildmenu				"visual autocomplete for command menu
