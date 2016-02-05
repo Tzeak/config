@@ -28,5 +28,6 @@ set wildmenu				"visual autocomplete for command menu
 set hlsearch				"highlight search matches -- :noh(lsearch) to remove
 set foldenable				"folds code -- (za) to toggle
 set foldmethod=indent		"Run :help foldmethod for alternatives
+set foldlevelstart=8		"When do things start auto-folding
 
 "For more vimrc tips, go to: http://dougblack.io/words/a-good-vimrc.html
