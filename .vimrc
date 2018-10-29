@@ -31,3 +31,6 @@ set foldmethod=indent		"Run :help foldmethod for alternatives
 set foldlevelstart=8		"When do things start auto-folding
 
 "For more vimrc tips, go to: http://dougblack.io/words/a-good-vimrc.html
+"React JS addition to vim
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
