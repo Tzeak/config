@@ -24,14 +24,16 @@ set shiftwidth=4				"number of spaces per >> << or ==
 
 "ETC
 set wildmenu					"visual autocomplete for command menu
-"set showmatch					"highlight matching [{()}]
+set showmatch					"highlight matching [{()}]
 set hlsearch					"highlight search matches -- :noh(lsearch) to remove
+set ignorecase					"case insensitive search
+set smartcase					"case sensitive when capitals are there
 set foldenable					"folds code -- (za) to toggle
 set foldmethod=indent			"Run :help foldmethod for alternatives
 set foldlevelstart=8			"When do things start auto-folding
 
 "netrw settings
-let g:netrw_winsize=10			"limits new Explorer size when writing :Vex/Sex
+let g:netrw_winsize=25			"limits new Explorer size when writing :Vex/Sex
 let g:netrw_banner=0			"no top banner
 let g:netrw_browse_split=2		"opens vim files in new vertical window 1-horiz 2-vert 3-tab 4-open in previous window
 let g:netrw_liststyle=3			"set list style to tree
